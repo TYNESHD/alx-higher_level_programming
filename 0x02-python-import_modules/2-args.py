@@ -2,7 +2,6 @@
 
 if __name__ == "__main__":
     # Print the number of and list of arguments.
-    # built-in function to access the list of command-line arguments passed to the script
     import sys
 
     count = len(sys.argv) - 1

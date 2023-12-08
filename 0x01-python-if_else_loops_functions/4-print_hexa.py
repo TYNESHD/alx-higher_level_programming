@@ -1,5 +1,4 @@
 #!/usr/bin/python3
 
-for i in range(0,99):
-    hexadecimal = hex(i)
-    print(f"{i} = {hexadecimal}")
+for i in range(99):
+    print(f"{i} = {hex(i)}")
